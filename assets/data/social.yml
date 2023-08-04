@@ -1,3 +1,11 @@
+# BlueSky
+bluesky:
+  Weight: 101
+  Prefix: https://bsky.app/profile/
+  Title: Bluesky
+  Icon:
+    Class: fas fa-square
+
 # 001: Github
 github:
   Weight: 1
