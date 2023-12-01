@@ -797,7 +797,7 @@ var Theme = /*#__PURE__*/function () {
       if (this.config.typeit) {
         var typeitConfig = this.config.typeit;
         var speed = typeitConfig.speed ? typeitConfig.speed : 400;
-        var cursorSpeed = typeitConfig.cursorSpeed ? typeitConfig.cursorSpeed : 1000;
+        var cursorSpeed = typeitConfig.cursorSpeed ? typeitConfig.cursorSpeed : 2000;
         var cursorChar = typeitConfig.cursorChar ? typeitConfig.cursorChar : '|';
         Object.values(typeitConfig.data).forEach(function (group) {
           var typeone = function typeone(i) {
